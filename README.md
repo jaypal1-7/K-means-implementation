@@ -24,6 +24,9 @@ step2: Secondly, Function 'algo_initialize(data,k)'is defined, Where 'data' is 2
 Step3: Here we calculate euclidean distance between each data point and all the previous centroids using for loops. All the distance measurement to be recorded in a list called 'dist' where the index of 'dist' list points to the data point in 'data' array.
 
 Step4: Here,We choose the data point from 'data' array as our next centroid which has max. dist from previous centroid with the help of dist list. This data point will be the next centroid for the data set. This will help in assigning more no. of data points to centroid along with maintaining minimum distance towards data points.
+![image](https://user-images.githubusercontent.com/52853399/109596482-f9a99880-7adb-11eb-8eef-fed7fec5cc08.gif)
+
+
 
 Step5: Repeat step3 and step4 untill we reach the given no. of k values for the data set. For example, if k= 5 is defined then we will assign 5 centroids for the data set using all the steps mentioned above.
 
