@@ -29,6 +29,26 @@ Step4: Here,We choose the data point from 'data' array as our next centroid whic
 
 
 Step5: Repeat step3 and step4 untill we reach the given no. of k values for the data set. For example, if k= 5 is defined then we will assign 5 centroids for the data set using all the steps mentioned above.
+![image](https://user-images.githubusercontent.com/52853399/109596571-2493ec80-7adc-11eb-861a-6debf243868f.gif)
+![image](https://user-images.githubusercontent.com/52853399/109596580-2958a080-7adc-11eb-8bfb-d5b1a150e980.gif)
+![image](https://user-images.githubusercontent.com/52853399/109596588-2d84be00-7adc-11eb-8c15-cbbd43ec5447.gif)
+![image](https://user-images.githubusercontent.com/52853399/109596608-32e20880-7adc-11eb-94ae-52c8ef7690e9.gif)
+![image](https://user-images.githubusercontent.com/52853399/109596617-383f5300-7adc-11eb-8ae1-1e0c111c3794.gif)
+
 
 d)conclusion:
-Using this method, we can make sure that centroids should be assigned in way where the algorithm takes less time to converge rather than assigning arbitarily to a single point. There is a possibility of a centroid being assigned to just one or two data points(outliers) if we use k-means directly. This algorithm works efficiently with the breast cancer data set as well. So, a single algorithm can be used for more than one data set
+Using this method, we can make sure that centroids should be assigned in way where the algorithm takes less time to converge rather than assigning arbitarily to a single point. There is a possibility of a centroid being assigned to just one or two data points(outliers) if we use k-means directly. This algorithm works efficiently with the breast cancer data set as well. So, a single algorithm can be used for more than one data set.
+
+![image](https://user-images.githubusercontent.com/52853399/109596642-44c3ab80-7adc-11eb-8f3c-0f7188d52f93.gif)
+![image](https://user-images.githubusercontent.com/52853399/109596662-4ee5aa00-7adc-11eb-994d-e57a58495998.gif)
+![image](https://user-images.githubusercontent.com/52853399/109596681-56a54e80-7adc-11eb-8dba-8594e840843c.gif)
+![image](https://user-images.githubusercontent.com/52853399/109596695-5c9b2f80-7adc-11eb-9bac-9417c39b92c7.gif)
+![image](https://user-images.githubusercontent.com/52853399/109596704-6329a700-7adc-11eb-9f0e-565c85a2afe0.gif)
+![image](https://user-images.githubusercontent.com/52853399/109596715-6886f180-7adc-11eb-9a43-a8ac2427e493.gif)
+
+
+
+
+
+
+
