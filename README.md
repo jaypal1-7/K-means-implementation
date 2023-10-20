@@ -1,27 +1,28 @@
 # Machine Learning Assignment 1: Leaf Class Prediction and Breast Cancer Classification
 ## Prerequisites
 ### Python 3.7.3
-Jupyter Notebook
-Pandas Library
-Numpy Library
-Matplotlib
-Seaborn Library
-Introduction
+### Jupyter Notebook
+### Pandas Library
+### Numpy Library
+### Matplotlib
+### Seaborn Library
+
+## Introduction
 This project focuses on the application of unsupervised learning on two distinct datasets: Leaf Classification and Breast Cancer Classification.
 
-a) Multivariate Datasets
+## a) Multivariate Datasets
 Leaf Classification
 The Leaf dataset contains information about the classification of leaf types based on various attributes derived from the texture and dimensions of the leaves. Some of the attributes include 'Class (Species),' 'Specimen Number,' 'Eccentricity,' 'Aspect Ratio,' 'Elongation,' 'Solidity,' 'Stochastic Convexity,' 'Isoperimetric Factor,' 'Maximal Indentation Depth,' 'Lobedness,' 'Average Intensity,' 'Average Contrast,' 'Smoothness,' 'Third moment,' 'Uniformity,' and 'Entropy.'
 
 Breast Cancer Classification
 The Breast Cancer dataset helps classify whether a person has breast cancer or not. Its attributes include "Age (years), BMI (kg/m2), Glucose (mg/dL), Insulin (µU/mL), HOMA, Leptin (ng/mL), Adiponectin (µg/mL), Resistin (ng/mL), MCP-1(pg/dL)."
 
-b) Data Preparation for the Model
+## b) Data Preparation for the Model
 Using Jupyter Notebook, we import the necessary libraries, including Pandas, Numpy, and Matplotlib, and read the CSV file into a Pandas DataFrame. We will implement the model with the Leaf Classification dataset and later test it on the Breast Cancer dataset. All data attributes should be quantitative in nature before training the model. In the case of categorical data, it needs to be encoded, e.g., using One-Hot Encoding.
 
 For this model, we will select 'Solidity' and 'Uniformity' as the two random variables from the Leaf dataset for better understanding of how the algorithm works. We will calculate the mean and covariance for these variables, allowing us to apply a multivariate normal distribution.
 
-c) Algorithm Implementation
+## c) Algorithm Implementation
 Step 1: Euclidean Distance
 We define a function 'distance' to calculate the Euclidean distance between a point and a centroid.
 
@@ -46,7 +47,7 @@ We repeat steps 3 and 4 until we reach the specified number of 'k' values for th
 ![image](https://user-images.githubusercontent.com/52853399/109596617-383f5300-7adc-11eb-8ae1-1e0c111c3794.gif)
 
 
-d) Conclusion
+## d) Conclusion
 This algorithm is an efficient way to assign centroids and helps reduce convergence time. It prevents the assignment of centroids to just one or two data points (outliers), which can happen if we use k-means directly. Furthermore, this algorithm works effectively with the Breast Cancer dataset, demonstrating its versatility for multiple datasets. 
 
 ![image](https://user-images.githubusercontent.com/52853399/109596642-44c3ab80-7adc-11eb-8f3c-0f7188d52f93.gif)
