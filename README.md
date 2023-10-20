@@ -1,6 +1,6 @@
-#Machine Learning Assignment 1: Leaf Class Prediction and Breast Cancer Classification
-##Prerequisites
-###Python 3.7.3
+Machine Learning Assignment 1: Leaf Class Prediction and Breast Cancer Classification
+Prerequisites
+Python 3.7.3
 Jupyter Notebook
 Pandas Library
 Numpy Library
